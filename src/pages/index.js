@@ -540,7 +540,7 @@ function IndexPage() {
           data-aos-duration="600"
         >
           <h3 className="h2 m-b-8 xs-w-100 md-w-50 lg-w-75">
-            Find out how we help small business expand & grow their services{" "}
+            Bekerja di jepang dengan proses yang sesuai dengan keahlian anda{" "}
           </h3>
 
           <div className="grid xs-grid-cols-1 sm-grid-cols-2 lg-grid-cols-4 gap-6  m-b-10">
@@ -549,9 +549,21 @@ function IndexPage() {
                 1
               </span>
               <div className="flex flex-column">
-                <h3 className="h5 m-b-2">User research</h3>
+                <h3 className="h5 m-b-2">Bidang Perawat</h3>
                 <p className="subtitle">
-                  Quam id leo in vitae. Sed faucibus turpis in eu mi
+                 <div>
+                  - masa kontrak hingga 5 Tahun SSW 1
+                 </div>
+                 <div>
+                  - Seminggu 5-6 hari kerja
+                 </div>
+                 <div>
+                  - Kerja 8 hingga 12 jam per hari
+                 </div>
+                 <div>
+                  - Perkiraan Gaji : Rp15 Juta - Rp20 Juta per Bulan
+                 </div>
+                
                 </p>
               </div>
             </article>
@@ -560,9 +572,20 @@ function IndexPage() {
                 2
               </span>
               <div className="flex flex-column">
-                <h3 className="h5 m-b-2">Market research</h3>
+                <h3 className="h5 m-b-2">Bidang <div>Konstruksi</div></h3>
                 <p className="subtitle">
-                  Tincidunt dui ut ornare lectus sit. Orci eu lobortis
+                   <div>
+                  - Masa Kontrak hingga 5 Tahun SSW 1
+                 </div>
+                 <div>
+                  - Seminggu 5-6 hari kerja
+                 </div>
+                 <div>
+                  - 8 jam perhari. Istirahat 1 jam
+                 </div>
+                 <div>
+                  - Perkiraan Gaji : Rp15 Juta - Rp22 Juta per bulan
+                 </div>
                 </p>
               </div>
             </article>
@@ -571,9 +594,20 @@ function IndexPage() {
                 3
               </span>
               <div className="flex flex-column">
-                <h3 className="h5 m-b-2">Analysis</h3>
+                <h3 className="h5 m-b-2">Bidang Pertanian</h3>
                 <p className="subtitle">
-                  Quam id leo in vitae. Sed faucibus turpis.
+                   <div>
+                  - masa kontrak hingga 5 Tahun SSW 1
+                 </div>
+                 <div>
+                  - Seminggu 5 hari kerja
+                 </div>
+                 <div>
+                  - 8 Jam perhai. Istirahat 1 jam
+                 </div>
+                 <div>
+                  - Perkiraan Gaji : Rp10 Juta - Rp20 Juta per Bulan
+                 </div>
                 </p>
               </div>
             </article>
@@ -582,9 +616,20 @@ function IndexPage() {
                 4
               </span>
               <div className="flex flex-column">
-                <h3 className="h5 m-b-2">Usability testing</h3>
+                <h3 className="h5 m-b-2">Bidang Perhotelan</h3>
                 <p className="subtitle">
-                  Tellus morasdie nunc non blandit massa enim
+                    <div>
+                  - masa kontrak hingga 5 Tahun SSW 1
+                 </div>
+                 <div>
+                  - Seminggu 5-6 hari kerja
+                 </div>
+                 <div>
+                  - 8 Jam perhai. Istirahat 1 jam
+                 </div>
+                 <div>
+                  - Perkiraan Gaji : Rp13 Juta - Rp25 Juta per Bulan
+                 </div>
                 </p>
               </div>
             </article>
@@ -593,9 +638,20 @@ function IndexPage() {
                 5
               </span>
               <div className="flex flex-column">
-                <h3 className="h5 m-b-2">UI Design</h3>
+                <h3 className="h5 m-b-2">Bilang Pengolahan Makanan</h3>
                 <p className="subtitle">
-                  Aliquam purus sit amet luctus venenatis lectus
+                    <div>
+                  - masa kontrak hingga 5 Tahun SSW 1
+                 </div>
+                 <div>
+                  - Seminggu 5 hari kerja
+                 </div>
+                 <div>
+                  - 8 Jam perhai. Istirahat 1 jam
+                 </div>
+                 <div>
+                  - Perkiraan Gaji : Rp13 Juta - Rp18 Juta per Bulan
+                 </div>
                 </p>
               </div>
             </article>
@@ -604,31 +660,20 @@ function IndexPage() {
                 6
               </span>
               <div className="flex flex-column">
-                <h3 className="h5 m-b-2">Built the site</h3>
+                <h3 className="h5 m-b-2">Bidang IT</h3>
                 <p className="subtitle">
-                  Donec pretium vulputate sapien nec sagittis
-                </p>
-              </div>
-            </article>
-            <article className="card p-6 bg-white dark-bg-gray-800 dark-bg-gray-700 flex flex-row items-start justify-start">
-              <span className="badge-icon badge-icon-md m-b-2 bg-blue-100 dark-bg-gray-700 m-r-4 font-semibold font-size-lg blue-700 dark-blue-300">
-                7
-              </span>
-              <div className="flex flex-column">
-                <h3 className="h5 m-b-2">QA testing</h3>
-                <p className="subtitle">
-                  Nulla aliquet porttitor lacus luctus accumsan
-                </p>
-              </div>
-            </article>
-            <article className="card p-6 bg-white dark-bg-gray-800 dark-bg-gray-700 flex flex-row items-start justify-start">
-              <span className="badge-icon badge-icon-md m-b-2 bg-blue-100 dark-bg-gray-700 m-r-4 font-semibold font-size-lg blue-700 dark-blue-300">
-                8
-              </span>
-              <div className="flex flex-column">
-                <h3 className="h5 m-b-2">Delivery</h3>
-                <p className="subtitle">
-                  Risus nullam eget felis eget nunc lobortis
+                    <div>
+                  - Kontrak awal 2 tahun (visa perpanjang tiap tahun)
+                 </div>
+                 <div>
+                  - Seminggu 5-6 hari kerja
+                 </div>
+                 <div>
+                  - kerja 8 jam hingga 12 jam perhari
+                 </div>
+                 <div>
+                  - Perkiraan Gaji : Rp20 Juta - Rp30 Juta per Bulan untuk entry level
+                 </div>
                 </p>
               </div>
             </article>
