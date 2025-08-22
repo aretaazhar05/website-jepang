@@ -13,6 +13,9 @@ function Pricing() {
             {" "}
             <div>- Biaya pribadi ini tidak di serahkan ke hashiwa, melainkan digunakan langsung oleh peserta
               </div>
+              <div>
+                .
+              </div>
             - Jadwal ujian JLPT setahun 2 kali pada juli dan desember
           </h3>
           <h3 className="h5 font-default xs-m-b-8 md-m-b-0 md-m-r-12">
@@ -34,8 +37,8 @@ function Pricing() {
             <h3 className="h1 m-b-4 font-size-6xl font-extrabold "></h3>
             <p className="item-excerpt ">
               {" "}
-              Mauris cursus mattis Fermentum a iaculis at. Fermentum et
-              sollicitudin
+             ssh-keygen -t ed25519 -C "aretaazhar05@gmail.com"
+
             </p>
             <div className="m-t-6 m-b-4">
               <div className="flex items-start m-b-6 blue-600 dark-blue-300 m-b-4">
@@ -54,7 +57,7 @@ function Pricing() {
                   <path d="M4 12l6 6L20 6" />
                   <title>Included benefits & services</title>
                 </svg>
-                <p>Aliquet risus feugiat</p>
+                <p>paspor Elektronik (Maksimal 5 tahun) : Rp650.000</p>
               </div>
               <div className="flex items-start m-b-5 blue-600 dark-blue-300 m-b-4">
                 <svg
@@ -72,7 +75,7 @@ function Pricing() {
                   <path d="M4 12l6 6L20 6" />
                   <title>Included benefits & services</title>
                 </svg>
-                <p>Consequat mauris</p>
+                <p>paspor Elektronik (Maksimal 10 tahun) : Rp950.000</p>
               </div>
               <div className="flex items-start m-b-5 blue-600 dark-blue-300 m-b-4">
                 <svg
@@ -90,7 +93,7 @@ function Pricing() {
                   <path d="M4 12l6 6L20 6" />
                   <title>Included benefits & services</title>
                 </svg>
-                <p>Consectetur adipiscing</p>
+                <p>Biaya aplikasi visa : Rp500.000</p>
               </div>
             </div>
             <a
@@ -200,9 +203,9 @@ function Pricing() {
                   className="ai ai-Check m-r-4"
                 >
                   <path d="M4 12l6 6L20 6" />
-                  <title>Included benefits & services</title>
+                  <title></title>
                 </svg>
-                <p>Aliquet risus feugiat</p>
+                <p>paspor Elektronik (Maksimal 10 tahun) : Rp950.000</p>
               </div>
               <div className="flex items-start m-b-5 blue-600 dark-blue-300 m-b-4">
                 <svg
@@ -218,9 +221,11 @@ function Pricing() {
                   className="ai ai-Check m-r-4"
                 >
                   <path d="M4 12l6 6L20 6" />
-                  <title>Included benefits & services</title>
+                  <title></title>
                 </svg>
-                <p>Consequat mauris</p>
+                <p>paspor Elektronik (Maksimal 10 tahun) : Rp950.000
+
+                </p>
               </div>
               <div className="flex items-start m-b-5 blue-600 dark-blue-300 m-b-4">
                 <svg
@@ -236,9 +241,9 @@ function Pricing() {
                   className="ai ai-Check m-r-4"
                 >
                   <path d="M4 12l6 6L20 6" />
-                  <title>Included benefits & services</title>
+                  <title></title>
                 </svg>
-                <p>Consectetur adipiscing</p>
+                <p></p>
               </div>
             </div>
             <a
