@@ -37,7 +37,7 @@ function Pricing() {
             <h3 className="h1 m-b-4 font-size-6xl font-extrabold "></h3>
             <p className="item-excerpt ">
               {" "}
-             ssh-keygen -t ed25519 -C "aretaazhar05@gmail.com"
+            
 
             </p>
             <div className="m-t-6 m-b-4">
@@ -96,14 +96,7 @@ function Pricing() {
                 <p>Biaya aplikasi visa : Rp500.000</p>
               </div>
             </div>
-            <a
-              href="#0"
-              className="btn bg-blue-100 dark-bg-gray-600 btn-lg w-100 black dark-gray-200"
-              role="button"
-              aria-label="Get started now"
-            >
-              Get started now
-            </a>
+            
           </article>
 
          <article className="card xs-p-y-8 md-p-y-10 xs-p-x-8 md-p-x-9 radius-lg border-gray-300 dark-border-gray-700 dark-bg-gray-700  xs-w-100 md-w-fit xs-m-b-8 md-m-b-0">
@@ -111,8 +104,7 @@ function Pricing() {
             <h3 className="h1 m-b-4 font-size-6xl font-extrabold "></h3>
             <p className="item-excerpt ">
               {" "}
-              Mauris cursus mattis Fermentum a iaculis at. Fermentum et
-              sollicitudin
+              
             </p>
             <div className="m-t-6 m-b-4">
               <div className="flex items-start m-b-6 blue-600 dark-blue-300 m-b-4">
@@ -131,7 +123,7 @@ function Pricing() {
                   <path d="M4 12l6 6L20 6" />
                   <title>Included benefits & services</title>
                 </svg>
-                <p>Aliquet risus feugiat</p>
+                <p>Ujian JLPT N3 (untuk technoshoku) : Rp220.000</p>
               </div>
               <div className="flex items-start m-b-5 blue-600 dark-blue-300 m-b-4">
                 <svg
@@ -149,7 +141,7 @@ function Pricing() {
                   <path d="M4 12l6 6L20 6" />
                   <title>Included benefits & services</title>
                 </svg>
-                <p>Consequat mauris</p>
+                <p>Ujian JLPT N3 (untuk Tokutei Ginou) : Rp180.000</p>
               </div>
               <div className="flex items-start m-b-5 blue-600 dark-blue-300 m-b-4">
                 <svg
@@ -167,17 +159,10 @@ function Pricing() {
                   <path d="M4 12l6 6L20 6" />
                   <title>Included benefits & services</title>
                 </svg>
-                <p>Consectetur adipiscing</p>
+                <p>Ujian Specifed Skilled Worker (SSW) : Rp500.000</p>
               </div>
             </div>
-            <a
-              href="#0"
-              className="btn bg-blue-100 dark-bg-gray-600 btn-lg w-100 black dark-gray-200"
-              role="button"
-              aria-label="Get started now"
-            >
-              Get started now
-            </a>
+            
           </article>
 
          <article className="card xs-p-y-8 md-p-y-10 xs-p-x-8 md-p-x-9 radius-lg border-gray-300 dark-border-gray-700 dark-bg-gray-700  xs-w-100 md-w-fit xs-m-b-8 md-m-b-0">
@@ -185,8 +170,7 @@ function Pricing() {
             <h3 className="h1 m-b-4 font-size-6xl font-extrabold "></h3>
             <p className="item-excerpt ">
               {" "}
-              Mauris cursus mattis Fermentum a iaculis at. Fermentum et
-              sollicitudin
+              
             </p>
             <div className="m-t-6 m-b-4">
               <div className="flex items-start m-b-6 blue-600 dark-blue-300 m-b-4">
@@ -205,7 +189,7 @@ function Pricing() {
                   <path d="M4 12l6 6L20 6" />
                   <title></title>
                 </svg>
-                <p>paspor Elektronik (Maksimal 10 tahun) : Rp950.000</p>
+                <p>Tiket pesawat : :Rp5.000.000</p>
               </div>
               <div className="flex items-start m-b-5 blue-600 dark-blue-300 m-b-4">
                 <svg
@@ -223,28 +207,11 @@ function Pricing() {
                   <path d="M4 12l6 6L20 6" />
                   <title></title>
                 </svg>
-                <p>paspor Elektronik (Maksimal 10 tahun) : Rp950.000
+                <p>Uang Saku Sampai Gajian : Rp6.000.000
 
                 </p>
               </div>
-              <div className="flex items-start m-b-5 blue-600 dark-blue-300 m-b-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="4"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="ai ai-Check m-r-4"
-                >
-                  <path d="M4 12l6 6L20 6" />
-                  <title></title>
-                </svg>
-                <p></p>
-              </div>
+              
             </div>
             <a
               href="#0"
@@ -252,8 +219,7 @@ function Pricing() {
               role="button"
               aria-label="Get started now"
             >
-              Get started now
-            </a>
+              PERKIRAAN TOTAL : RP13.170.000      </a>
           </article>
         </div>
       </div>

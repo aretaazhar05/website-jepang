@@ -15,14 +15,14 @@ export default function Footer() {
                   quality={75}
                   placeholder="blurred"
                   className="w-10 h-10"
-                  src="../images/logo-40x40.png"
+                  src="../images/logo-areta2.png"
                   width={40}
                   height={40}
                   alt="Zauberhaft - logo"
                 />
                 <div className="m-l-4 flex items-start flex-column ">
-                  <h1 className="h5 font-bold line-h-xl">Zauberhaft</h1>
-                  <p className="small align-left">By Ravenbright CSS</p>
+                  <h1 className="h5 font-bold line-h-xl">Areta Informatics college</h1>
+                  <p className="small align-left">Kampus Full Praktek</p>
                 </div>
               </a>
             </li>
