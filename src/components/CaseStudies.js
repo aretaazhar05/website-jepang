@@ -230,9 +230,7 @@ function CaseStudies() {
               
               
             </article>
-
-            <article className="card clickable p-y-7 xs-p-x-6 lg-p-x-7 radius-lg flex-row items-start w-100 xs-flex-wrap lg-flex-no-wrap border-gray-200 dark-border-gray-700 gap-8">
-
+             <article className="card clickable p-y-7 xs-p-x-6 lg-p-x-7 radius-lg flex-row items-start w-100 xs-flex-wrap lg-flex-no-wrap border-gray-200 dark-border-gray-700">
               <h3 className="visually-hidden">
                 Companyxyz have increased purchase rate from returning visitors{" "}
               </h3>
@@ -291,9 +289,6 @@ function CaseStudies() {
               
               
             </article>
-            
-            
-            
           </div>
         </div>
       </div>
