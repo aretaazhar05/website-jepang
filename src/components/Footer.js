@@ -21,8 +21,8 @@ export default function Footer() {
                   alt="Zauberhaft - logo"
                 />
                 <div className="m-l-4 flex items-start flex-column ">
-                  <h1 className="h5 font-bold line-h-xl"></h1>
-                  <p className="small align-left">  </p>
+                  <h1 className="h5 font-bold line-h-xl">Areta Informatics College</h1>
+                  <p className="small align-left">Kampus IT & Digital marketing</p>
                 </div>
               </a>
             </li>
