@@ -15,13 +15,11 @@ function IndexPage() {
           <div className="section-title all-center">
             
             <h2 className="h1 m-b-6 md-w-75">
-              The best design studio for small business
+              Berani Ambil Langkah Pertama
             </h2>
             <div className="md-w-50 m-b-7">
               <h3 className="h6 font-medium line-h-lg">
-                Zauberhaft is a FREE one page agency website template to
-                supercharge your project. Zauberhaft is available in: HTML,
-                Next.js, Gatsby & Astro
+                Jelang Bisa Jadi Awal Perubahan Hidupmu
               </h3>
             </div>
 
@@ -59,95 +57,40 @@ function IndexPage() {
           </div>      
           <div className="grid xs-grid-cols-1 sm-grid-cols-2 lg-grid-cols-3 gap-6">
             <article className="card p-7 bg-white dark-bg-gray-700 dark-bg-gray-700 h-100 justify-center">
-              <span className="badge-icon badge-icon-md m-b-2 bg-blue-100 dark-bg-gray-600 m-b-4 blue-600 dark-blue-200">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="ai ai-CircleTriangleRight"
-                >
-                  <title>Brand design identity services icon</title>
-                  <circle cx="12" cy="12" r="10"></circle>
-                  <path d="M16 12l-6-4v8l6-4z"></path>
-                </svg>
-              </span>
+             
               <div className="flex flex-column">
-                <h3 className="h5 m-b-2">Brand design</h3>
+                <h3 className="h5 m-b-2">Visi</h3>
                 <p className="subtitle">
-                  Duis at consectetur lorem donec. Ante in nibh mauris cursus
-                  mattis
+                  Menjadi penyelenggara pendidikan bahasa jeapng unggulan skala internasional yang berkontribusi pada pengembangan SDM dan penyebaran dakwah Islam.
                 </p>
               </div>
             </article>
             <article className="card p-7 bg-white dark-bg-gray-700 h-100">
-              <span className="badge-icon badge-icon-md m-b-2 bg-blue-100 dark-bg-gray-600 m-b-4 blue-600 dark-blue-200">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="icon icon-tabler icon-tabler-device-desktop"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <title>Web design services icon</title>
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <rect x="3" y="4" width="20" height="12" rx="1"></rect>
-                  <line x1="7" y1="20" x2="17" y2="20"></line>
-                  <line x1="9" y1="16" x2="9" y2="20"></line>
-                  <line x1="15" y1="16" x2="15" y2="20"></line>
-                </svg>
-              </span>
+             
               <div className="flex flex-column">
-                <h3 className="h5 m-b-2">Web design (Webflow, Next.js)</h3>
+                <h3 className="h5 m-b-2"></h3>
                 <p className="subtitle">
-                  In nisl nisi scelerisque eu ultrices vitae auctor eu. Amet
-                  mattis vulputate enim nulla
+                 
                 </p>
               </div>
             </article>
             <article className="card p-7 bg-white dark-bg-gray-700 m-b-4 h-100">
-              <span className="badge-icon badge-icon-md m-b-2 bg-blue-100 dark-bg-gray-600 m-b-4 blue-600 dark-blue-200">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="icon icon-tabler icon-tabler-hand-click"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <title>Mobile app design services icon</title>
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <path d="M8 13v-8.5a1.5 1.5 0 0 1 3 0v7.5"></path>
-                  <path d="M11 11.5v-2a1.5 1.5 0 0 1 3 0v2.5"></path>
-                  <path d="M14 10.5a1.5 1.5 0 0 1 3 0v1.5"></path>
-                  <path d="M17 11.5a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7l-.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47"></path>
-                  <path d="M5 3l-1 -1"></path>
-                  <path d="M4 7h-1"></path>
-                  <path d="M14 3l1 -1"></path>
-                  <path d="M15 6h1"></path>
-                </svg>
-              </span>
+              
               <div className="flex flex-column">
                 <h3 className="h5 m-b-2 font-bold">
-                  Mobile app (Native or PWA)
+                  Misi
                 </h3>
                 <p className="subtitle">
-                  In metus vulputate eu scelerisque. Tellus modeo nunc non
-                  blandit
+                 <b>1. </b>Menggali potensi bahasa jepang dan skill unik siswa.
+                 <div>
+                  <b>2. </b> Membimbing siswa di dalam maupu luar kelas terkait pembelajaran bahasa jepang dan kehidupan di jepang.
+                 </div>
+                 <div>
+                  <b>3. </b> Mencetak resource yang mampu berdakwah di jepang.
+                 </div>
+                 <div>
+                  <b>4. </b> Mencetak resource yang mampu bersaing di era gobal.
+                 </div>
                 </p>
               </div>
             </article>

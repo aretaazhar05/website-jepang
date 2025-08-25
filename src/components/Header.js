@@ -14,7 +14,7 @@ function Header() {
               <StaticImage
                 quality={75}
                 placeholder="blurred"
-                className="w-10 h-10"
+                className="w-10  h-10"
                 src="../images/logo-areta2.png"
                 width={40}
                 height={40}
@@ -22,7 +22,7 @@ function Header() {
               />
               <div className="m-l-4 flex items-start flex-column xs-d-none sm-flex">
                 <h1 className="h5 font-bold line-h-lg">Areta Informatics College</h1>
-                <p className="small align-left">Kampus Full Praktek</p>
+                <p className="small align-left">Kampus IT & Bisnis Digital</p>
               </div>
             </a>
           </li>

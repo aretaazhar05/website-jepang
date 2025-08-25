@@ -41,25 +41,8 @@ function CaseStudies() {
           <div className="flex flex-column md-w-50">
             <div className="badge-group m-b-4">
               <span className="badge border-gray-300 badge-sm">
-                <svg
-                  role="img"
-                  aria-label="Agency case study blog item icon"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="icon icon-tabler icon-tabler-check m-r-3"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <title>Agency case study blog item icon</title>
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <path d="M5 12l5 5l10 -10"></path>
-                </svg>
-                Web redesign
+                
+                <b>1. </b>
               </span>
             </div>
             <a href="https://twitter.com" className="h5 m-b-3">
@@ -71,6 +54,7 @@ function CaseStudies() {
               dignissim convallis aenean et tortor at
             </p>
           </div>
+          123
         </article>
         <div className="flex w-100 xs-flex-wrap md-flex-no-wrap">
           <article className="card clickable p-y-7 xs-p-x-6 lg-p-x-7 radius-lg border-gray-200 dark-border-gray-700 xs-w-100 lg-w-35 xs-m-b-7 md-m-b-0 md-m-r-7">
@@ -243,12 +227,78 @@ function CaseStudies() {
                   Vestibulum vehicula dui venenatis
                 </p>
               </div>
+              
+              
             </article>
+
+            <article className="card clickable p-y-7 xs-p-x-6 lg-p-x-7 radius-lg flex-row items-start w-100 xs-flex-wrap lg-flex-no-wrap border-gray-200 dark-border-gray-700 gap-8">
+
+              <h3 className="visually-hidden">
+                Companyxyz have increased purchase rate from returning visitors{" "}
+              </h3>
+              <a
+                href="https://reddit.com"
+                className="spread-link"
+                role="button"
+                target="_blank"
+                aria-label="Companyxyz have increased purchase rate from returning visitors"
+                rel="noopener noreferrer"
+              >
+                {" "}
+              </a>
+              <StaticImage
+                quality={75}
+                placeholder="blurred"
+                className="radius-md xs-m-b-8 lg-m-b-0 lg-m-r-8 xs-w-100 lg-w-50 height-100"
+                src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=360&q=80"
+                loading="eager"
+                width={640}
+                aspectRatio={16 / 9}
+                alt="Business & work - Unsplash image by @austindistel - https://unsplash.com/photos/rxpThOwuVgE"
+              />
+              <div className="flex flex-column lg-w-50">
+                <div className="badge-group m-b-4">
+                  <span className="badge border-gray-300 badge-sm">
+                    <svg
+                      role="img"
+                      aria-label="Agency case study blog item icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="icon icon-tabler icon-tabler-check m-r-3"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <title>Agency case study blog item icon</title>
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <path d="M5 12l5 5l10 -10"></path>
+                    </svg>
+                    Mobile e-commerce redesign
+                  </span>
+                </div>
+                <a href="https://reddit.com" className="h5 m-b-3">
+                  Companyxyz have increased purchase rate from returning
+                  visitors
+                </a>
+                <p className="item-excerpt">
+                  Vestibulum vehicula dui venenatis
+                </p>
+              </div>
+              
+              
+            </article>
+            
+            
+            
           </div>
         </div>
       </div>
     </section>
-  );
+  );  
 }
 
 export default CaseStudies;
