@@ -24,25 +24,10 @@ function IndexPage() {
               href="https://ravenbrightdesign.gumroad.com"
               className="btn dark-bg-blue-500 btn-lg shadow-lg radius-sm"
               role="button"
-              aria-label="Download Gatsby template"
+              aria-label="Ayo! Daftar Sekarang"
             >
-              Download Gatsby template
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2.25"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="m-l-3 ai ai-Download"
-              >
-                <title>Download template icon</title>
-                <path d="M12 15V3m0 12l-4-4m4 4l4-4" />
-                <path d="M2 17l.621 2.485A2 2 0 0 0 4.561 21H19.439a2 2 0 0 0 1.94-1.515L22 17" />
-              </svg>
+             Ayo! Daftar Sekarang
+            
             </a>
           </div>
         </div>
@@ -53,7 +38,7 @@ function IndexPage() {
     {/* Visi */}
     <article className="card p-7 bg-white dark-bg-gray-700 flex flex-col justify-between">
       <div>
-        <h3 className="h5 m-b-2">Visi</h3>
+        <h3 className="h5 m-b-2">🧭 Visi</h3>
         <p className="subtitle">
           Menjadi penyelenggara pendidikan bahasa Jepang unggulan skala
           internasional yang berkontribusi pada pengembangan SDM dan
@@ -65,7 +50,7 @@ function IndexPage() {
     {/* Misi */}
     <article className="card p-7 bg-white dark-bg-gray-700 flex flex-col justify-between">
       <div>
-        <h3 className="h5 m-b-2 font-bold">Misi</h3>
+        <h3 className="h5 m-b-2 font-bold">🎯 Misi</h3>
         <ul className="subtitle list-disc pl-5">
           <li>- Menggali potensi bahasa Jepang dan skill unik siswa.</li>
           <li>
