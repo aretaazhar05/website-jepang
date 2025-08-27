@@ -5,19 +5,19 @@ import { FaCodepen } from "react-icons/fa";
 
 const socialData = [
   {
-    socialLabel: "https://github.com/ariqnrnns",
-    socialUrl: "https://github.com/ariqnrnns",
-    socialLogo: <GoMarkGithub size={22} />,
+    socialLabel: "",
+    socialUrl: "",
+    
   },
   {
-    socialLabel: "https://www.figma.com/@ariqnarasaputra",
-    socialUrl: "https://www.figma.com/@ariqnarasaputra",
-    socialLogo: <FiFigma size={22} />,
+    socialLabel: "",
+    socialUrl: "",
+   
   },
   {
-    socialLabel: "https://codepen.io/ariqnarasaputra",
-    socialUrl: "https://codepen.io/ariqnarasaputra",
-    socialLogo: <FaCodepen size={22} />,
+    socialLabel: "",
+    socialUrl: "",
+    
   },
 ];
 
