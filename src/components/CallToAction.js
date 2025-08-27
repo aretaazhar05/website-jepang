@@ -2,46 +2,117 @@ import React from "react";
 
 export default function CallToAction() {
   return (
-    <section className="xs-p-y-16 md-p-y-32 cta-section">
+    <section id="CallToAction" className="xs-p-y-16 md-p-y-24 bg-white dark-bg-gray-900">
       <div className="container container-lg">
-        <div className="section-title all-center m-b-4">
-          <span className="badge badge-sm border-yellow-400 bg-yellow-200 font-semibold dark-black dark-bg-yellow-700 dark-border-none p-x-3 p-y-2 m-b-4">
-            Build high-performing sites 🚀
-          </span>
-          <h2 className=" m-b-6 md-w-75">
-            Create{" "}
-            <span className="blue-700 dark-blue-300 font-bold">modern</span> &
-            satisfying static sites that convert
+        <div className="m-b-8">
+          <h2>
+           MANFAAT BEKERJA DI JEPANG
           </h2>
-          <p className="m-b-6 w-75">
-            Quisque sagittis purus sit amet volutpat consequat mauris.
-          </p>
-          <a
-            href="https://ravenbrightdesign.gumroad.com"
-            className="btn dark-bg-blue-500 btn-lg shadow-md  "
-            role="button"
-            aria-label="Download Gatsby template"
-          >
-            Download Gatsby template
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2.25"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="m-l-3 ai ai-Download"
-            >
-              <title>Download template</title>
-              <path d="M12 15V3m0 12l-4-4m4 4l4-4" />
-              <path d="M2 17l.621 2.485A2 2 0 0 0 4.561 21H19.439a2 2 0 0 0 1.94-1.515L22 17" />
-            </svg>
-          </a>
-        </div>
-      </div>
-    </section>
+          <div>
+                <p>
+                  Terdapat Beberapa Manfaat Saat Bekerja di Jepang
+                </p>
+              </div>
+            </div>
+          </div>
+    
+          <div className="flex flex-column container container-lg">
+            {/* CARD 1 */}
+            <article className="card clickable shadow-gradient p-y-7 xs-p-x-6 radius-lg flex-row items-center w-100 xs-flex-wrap md-flex-no-wrap bg-white shadow-md m-b-7">
+              <div className="flex items-center gap-4 m-b-4">
+                
+                <span className="badge border-gray-300 badge-sm"><b>1.</b></span>
+              </div>
+              <div className="flex flex-column md-w-40">
+                <a href="https://twitter.com" className="h5 m-b-3">
+                  Lingkungan Kerja Memadai
+                </a>
+                <p className="item-excerpt">
+                  Pekerja Techo Shoku & Tokutei Ginou akan mendapatkan hak dan kewajiban yang sama dengan staf lokal. 
+                </p>
+              </div>
+            </article>
+    
+            {/* ROW 2 KOLOM */}
+            <div className="flex w-100 xs-flex-wrap md-flex-no-wrap">
+              {/* KOLOM KIRI */}
+              <div className="flex flex-column xs-w-100 lg-w-35 xs-m-b-7 md-m-b-0 md-m-r-7">
+                
+                {/* CARD 2 */}
+                <article className="card clickable p-y-7 xs-p-x-6 lg-p-x-7 radius-lg border-gray-200 dark-border-gray-700 m-b-7">
+                  <div className="flex items-center gap-4 m-b-4">
+                    
+                    <span className="badge border-gray-300 badge-sm">2.</span>
+                  </div>
+                  <a href="https://github.com" className="h5 m-b-3">
+                    Gaji Relatif Lebih Tinggi
+                  </a>
+                  <p className="item-excerpt">
+                    Standar gaji di Jepang relatif lebih tinggi dibandingkan rata rata gaji pekerja di Indonesia. Rata rata upah minimun pekerja di Jepang berkisar antara 15 hingga 25 juta per bulan untuk entry level .
+                  </p>
+                </article>
+    
+                {/* CARD 4 */}
+                <article className="card clickable p-y-7 xs-p-x-6 lg-p-x-7 radius-lg border-gray-200 dark-border-gray-700">
+                  <div className="flex items-center gap-4 m-b-4">
+                   
+                    <span className="badge border-gray-300 badge-sm">4.</span>
+                  </div>
+                  <a className="h5 m-b-3">
+                    Tingkat Keamanan
+                  </a>
+                  <p className="item-excerpt">
+                    Salah satu alasan orag asing memilih Jepang sebagai lokasi bekerja adalah karena tingkat keamananny yang sangat tinggi. Jepang dikenal didunia sebaga negara yang aman.
+                  </p>
+                </article>
+              </div>
+    
+              {/* KOLOM KANAN */}
+              <div className="flex flex-column xs-w-100 lg-w-65">
+                {/* CARD 3 */}
+                 <article className="card clickable p-y-7 xs-p-x-6 lg-p-x-7 radius-lg border-gray-200 dark-border-gray-700 m-b-7">
+                  <div className="flex items-center gap-4 m-b-4">
+                    
+                    <span className="badge border-gray-300 badge-sm">3.</span>
+                  </div>
+                  <a href="https://github.com" className="h5 m-b-3">
+                     Mengasah Skill Bahasa Jepang
+                  </a>
+                  <p className="item-excerpt">
+                   Tinggal dan bersosalisasi langsung dengan orang lokal membuat kalian lebih mudah mengingat bahasa di negara tersebut. Manfaatkanlah kesempatan bekerja sekaligus untuk menasah kemampuan bahasa Jepang
+                  </p>
+                </article>
+    
+                {/* CARD 5 */}
+                 <article className="card clickable p-y-7 xs-p-x-6 lg-p-x-7 radius-lg border-gray-200 dark-border-gray-700 m-b-7">
+                  <div className="flex items-center gap-4 m-b-4">
+                    
+                    <span className="badge border-gray-300 badge-sm">5.</span>
+                  </div>
+                  <a href="https://github.com" className="h5 m-b-3">
+                    Infrastruktur Memadai
+                  </a>
+                  <p className="item-excerpt">
+                  Jepang adalah negara yang memiliki infrastrutur yang baik, sistem kesehatan yang menjamin, pendidikan berkualitas, dan transportasi yang efisien adalah sebagian dari faktor faktor yang mendukung kualitas hidup masyarakat Jepang
+                  </p>
+                </article>
+    
+                {/* CARD 6 */}
+                <article className="card clickable p-y-7 xs-p-x-6 lg-p-x-7 radius-lg border-gray-200 dark-border-gray-700 m-b-7">
+                  <div className="flex items-center gap-4 m-b-4">
+                    
+                    <span className="badge border-gray-300 badge-sm">6.</span>
+                  </div>
+                  <a href="https://github.com" className="h5 m-b-3">
+                    Pesona 4 Musim
+                  </a>
+                  <p className="item-excerpt">
+                   Jepang dikenal dengan indahnya bunga sakura, salju dan warna warni dedaunan di musim gugur. Kamu bisa memanfaatkan kesempatan bekerja sambil menikmati suasana 4 musim di Jepang.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
   );
 }

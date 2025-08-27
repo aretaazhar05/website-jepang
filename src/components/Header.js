@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 
 import { StaticImage } from "gatsby-plugin-image";
 function Header() {
@@ -53,53 +54,29 @@ function Header() {
         </button>
         <ul className="xs-d-none md-flex  items-center gap-5 bg-gray-50 dark-bg-gray-800 dark-white md-p-r-4 md-p-l-6 md-p-y-3 radius-sm flex-wrap">
           <li className="m-r-6">
-            <a href="#0" className="link-navbar">
-              Works
+            <a href="#index" className="link-navbar">
+              Home
             </a>
           </li>
 
           <li className="m-r-6">
-            <a href="#0" className="link-navbar">
-              About
+            <a href="#Pricing" className="link-navbar">
+              Biaya
             </a>
           </li>
 
           <li className="m-r-4">
-            <a href="#0" className="link-navbar">
-              Approach
+            <a href="#CallToAction" className="link-navbar">
+              Manfaat
             </a>
           </li>
 
-          <li className="">
-            <a
-              href="https://ravenbrightdesign.gumroad.com"
-              className="btn bg-transparent blue-800 dark-blue-200 border-blue-400 dark-border-blue-400 btn-sm"
-              aria-label="download Gatsby template"
-              role="button"
-            >
-              Download Gatsby template
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2.25"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="m-l-3 ai ai-Download"
-              >
-                <title>Download template icon</title>
-                <path d="M12 15V3m0 12l-4-4m4 4l4-4" />
-                <path d="M2 17l.621 2.485A2 2 0 0 0 4.561 21H19.439a2 2 0 0 0 1.94-1.515L22 17" />
-              </svg>
-            </a>
-          </li>
+          
         </ul>
       </nav>
     </header>
   );
 }
+
 
 export default Header;

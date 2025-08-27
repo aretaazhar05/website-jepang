@@ -11,7 +11,7 @@ function IndexPage() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="p-t-14 p-b-14 dark-bg-black">
+      <section id="index" className="p-t-14 p-b-14 dark-bg-black">
         <div className="container container-xl m-b-16">
           <div className="section-title all-center">
             <h2 className="h1 m-b-6 md-w-75">Berani Ambil Langkah Pertama</h2>
@@ -21,7 +21,7 @@ function IndexPage() {
               </h3>
             </div>
             <a
-              href="https://ravenbrightdesign.gumroad.com"
+              href="https://api.whatsapp.com/send/?phone=6281285234904"
               className="btn dark-bg-blue-500 btn-lg shadow-lg radius-sm"
               role="button"
               aria-label="Ayo! Daftar Sekarang"
@@ -85,55 +85,55 @@ function IndexPage() {
               {
                 title: "Bidang Perawat",
                 details: [
-                  "Masa kontrak hingga 5 Tahun SSW 1",
-                  "Seminggu 5-6 hari kerja",
+                  "Masa kontrak hingga 5 Tahun SSW 1.",
+                  "Seminggu 5-6 hari kerja.",
                   "Kerja 8 hingga 12 jam per hari",
-                  "Perkiraan Gaji: Rp15 Juta - Rp20 Juta per Bulan"
+                  "Perkiraan Gaji: Rp15 Juta - Rp20 Juta per Bulan."
                 ]
               },
               {
                 title: "Bidang Konstruksi",
                 details: [
-                  "Masa kontrak hingga 5 Tahun SSW 1",
-                  "Seminggu 5-6 hari kerja",
-                  "8 jam per hari, istirahat 1 jam",
-                  "Perkiraan Gaji: Rp15 Juta - Rp22 Juta per Bulan"
+                  "Masa kontrak hingga 5 Tahun SSW 1.",
+                  "Seminggu 5-6 hari kerja.",
+                  "8 jam per hari, istirahat 1 jam.",
+                  "Perkiraan Gaji: Rp15 Juta - Rp22 Juta per Bulan."
                 ]
               },
               {
                 title: "Bidang Pertanian",
                 details: [
-                  "Masa kontrak hingga 5 Tahun SSW 1",
-                  "Seminggu 5 hari kerja",
-                  "8 jam per hari, istirahat 1 jam",
-                  "Perkiraan Gaji: Rp10 Juta - Rp20 Juta per Bulan"
+                  "Masa kontrak hingga 5 Tahun SSW 1.",
+                  "Seminggu 5 hari kerja.",
+                  "8 jam per hari, istirahat 1 jam.",
+                  "Perkiraan Gaji: Rp10 Juta - Rp20 Juta per Bulan."
                 ]
               },
               {
                 title: "Bidang Perhotelan",
                 details: [
-                  "Masa kontrak hingga 5 Tahun SSW 1",
-                  "Seminggu 5-6 hari kerja",
-                  "8 jam per hari, istirahat 1 jam",
-                  "Perkiraan Gaji: Rp13 Juta - Rp25 Juta per Bulan"
+                  "Masa kontrak hingga 5 Tahun SSW 1.",
+                  "Seminggu 5-6 hari kerja.",
+                  "8 jam per hari, istirahat 1 jam.",
+                  "Perkiraan Gaji: Rp13 Juta - Rp25 Juta per Bulan."
                 ]
               },
               {
-                title: "Bidang Pengolahan Makanan",
+                title: "Bidang Pengolahan Makanan.",
                 details: [
-                  "Masa kontrak hingga 5 Tahun SSW 1",
-                  "Seminggu 5 hari kerja",
-                  "8 jam per hari, istirahat 1 jam",
-                  "Perkiraan Gaji: Rp13 Juta - Rp18 Juta per Bulan"
+                  "Masa kontrak hingga 5 Tahun SSW 1.",
+                  "Seminggu 5 hari kerja.",
+                  "8 jam per hari, istirahat 1 jam.",
+                  "Perkiraan Gaji: Rp13 Juta - Rp18 Juta per Bulan."
                 ]
               },
               {
                 title: "Bidang IT",
                 details: [
-                  "Kontrak awal 2 tahun (visa perpanjang tiap tahun)",
-                  "Seminggu 5-6 hari kerja",
-                  "Kerja 8 hingga 12 jam per hari",
-                  "Perkiraan Gaji: Rp20 Juta - Rp30 Juta per Bulan (entry level)"
+                  "Kontrak awal 2 tahun (visa perpanjang tiap tahun).",
+                  "Seminggu 5-6 hari kerja.",
+                  "Kerja 8 hingga 12 jam per hari.",
+                  "Perkiraan Gaji: Rp20 Juta - Rp30 Juta per Bulan (entry level)."
                 ]
               }
             ].map((item, index) => (

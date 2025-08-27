@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 /* Hover states
    ============================================= */
 .link-footer, .link-navbar {
