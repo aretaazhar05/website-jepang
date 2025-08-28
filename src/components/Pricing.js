@@ -51,7 +51,7 @@ function Pricing() {
             </div>
 
             <a
-              href="#0"
+              href=""
               className="btn bg-blue-100 dark-bg-gray-600 btn-lg w-100 black dark-gray-200 m-t-6"
               role="button"
               aria-label="Perkiraan total biaya"

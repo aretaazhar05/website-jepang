@@ -6,31 +6,35 @@ import Pricing from "../components/Pricing";
 import Feature from "../components/Feature";
 import CaseStudies from "../components/CaseStudies";
 import CallToAction from "../components/CallToAction";
+import bgImage from "../component/bg.png";
+
 
 function IndexPage() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section id="index" className="p-t-14 p-b-14 dark-bg-black">
-        <div className="container container-xl m-b-16">
-          <div className="section-title all-center">
-            <h2 className="h1 m-b-6 md-w-75">Berani Ambil Langkah Pertama</h2>
-            <div className="md-w-50 m-b-7">
-              <h3 className="h6 font-medium line-h-lg">
-                Jelang Bisa Jadi Awal Perubahan Hidupmu
-              </h3>
+              <section id="index" className="relative p-t-14 p-b-14 dark-bg-black overflow-hidden">
+          {/* Konten Utama */}
+          <div className="relative container container-xl m-b-16">
+            <div className="section-title all-center">
+              <h2 className="h1 m-b-6 md-w-75">Berani Ambil Langkah Pertama</h2>
+              <div className="md-w-50 m-b-7">
+                <h3 className="h6 font-medium line-h-lg">
+                  Jelang Bisa Jadi Awal Perubahan Hidupmu
+                </h3>
+              </div>
+              <a
+                href="https://api.whatsapp.com/send/?phone=6281285234904"
+                className="btn dark-bg-blue-500 btn-lg shadow-lg radius-sm"
+                role="button"
+                aria-label="Ayo! Daftar Sekarang"
+              >
+                Ayo! Daftar Sekarang
+              </a>
             </div>
-            <a
-              href="https://api.whatsapp.com/send/?phone=6281285234904"
-              className="btn dark-bg-blue-500 btn-lg shadow-lg radius-sm"
-              role="button"
-              aria-label="Ayo! Daftar Sekarang"
-            >
-             Ayo! Daftar Sekarang
-            
-            </a>
           </div>
-        </div>
+
+
 
        {/* Visi & Misi Section */}
 <div className="container container-xl all-center">

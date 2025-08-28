@@ -16,7 +16,7 @@ function Header() {
                 quality={75}
                 placeholder="blurred"
                 className="w-10  h-10"
-                src="../images/logo-areta2.png"
+                src="../images/logoareta6.png"
                 width={40}
                 height={40}
                 alt="Zauberhaft - logo"
@@ -61,13 +61,13 @@ function Header() {
 
           <li className="m-r-6">
             <a href="#Pricing" className="link-navbar">
-              Biaya
+              Cost
             </a>
           </li>
 
           <li className="m-r-4">
             <a href="#CallToAction" className="link-navbar">
-              Manfaat
+              Benefit
             </a>
           </li>
 

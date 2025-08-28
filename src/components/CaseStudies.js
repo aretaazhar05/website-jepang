@@ -23,7 +23,7 @@ function CaseStudies() {
           <article className="card clickable shadow-gradient p-y-7 xs-p-x-6 radius-lg flex-row items-center w-100 xs-flex-wrap md-flex-no-wrap bg-white shadow-md m-b-7">
             <div className="flex items-center gap-4 m-b-4">
               <StaticImage
-                src="../images/old-people.png"
+                src="../images/usialanjut.png"
                 alt="Banyak Usia Lanjut"
                 width={700}
                 height={500}
@@ -51,7 +51,7 @@ function CaseStudies() {
               <article className="card clickable p-y-7 xs-p-x-6 lg-p-x-7 radius-lg border-gray-200 dark-border-gray-700 m-b-7">
                 <div className="flex items-center gap-4 m-b-4">
                   <StaticImage
-                    src="../images/workers.png"
+                    src="../images/pekerja.png"
                     alt="Membutuhkan tenaga kerja"
                     width={700}
                     height={500}
@@ -72,7 +72,7 @@ function CaseStudies() {
               <article className="card clickable p-y-7 xs-p-x-6 lg-p-x-7 radius-lg border-gray-200 dark-border-gray-700">
                 <div className="flex items-center gap-4 m-b-4">
                   <StaticImage
-                    src="../images/global.png"
+                    src="../images/TK.png"
                     alt="Pekerja Asing Sangat Penting"
                     width={700}
                     height={500}
@@ -97,10 +97,10 @@ function CaseStudies() {
               <article className="card clickable p-y-7 xs-p-x-6 lg-p-x-7 radius-lg border-gray-200 dark-border-gray-700 m-b-7">
                 <div className="flex items-center gap-4 m-b-4">
                   <StaticImage
-                    src="../images/lack.png"
+                    src="../images/pekerjaasing.png"
                     alt="Membutuhkan tenaga kerja"
                     width={700}
-                    height={500}
+                    height={450}
                     className="rounded-full"
                   />
                   <span className="badge border-gray-300 badge-sm">3.</span>
@@ -117,7 +117,7 @@ function CaseStudies() {
               <article className="card clickable p-y-7 xs-p-x-6 lg-p-x-7 radius-lg border-gray-200 dark-border-gray-700 m-b-7">
                 <div className="flex items-center gap-4 m-b-4">
                   <StaticImage
-                    src="../images/increase.png"
+                    src="../images/grafik.png"
                     alt="Membutuhkan tenaga kerja"
                     width={700}
                     height={500}
@@ -137,7 +137,7 @@ function CaseStudies() {
               <article className="card clickable p-y-7 xs-p-x-6 lg-p-x-7 radius-lg border-gray-200 dark-border-gray-700 m-b-7">
                 <div className="flex items-center gap-4 m-b-4">
                   <StaticImage
-                    src="../images/wanted.png"
+                    src="../images/wanted2.png"
                     alt="Membutuhkan tenaga kerja"
                     width={700}
                     height={500}
