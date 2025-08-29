@@ -6,7 +6,6 @@ import Pricing from "../components/Pricing";
 import Feature from "../components/Feature";
 import CaseStudies from "../components/CaseStudies";
 import CallToAction from "../components/CallToAction";
-import bgImage from "../component/bg.png";
 
 
 function IndexPage() {

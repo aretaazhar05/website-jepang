@@ -5,7 +5,10 @@ import socialData from "../data/SocialData";
 
 export default function Footer() {
   return (
-    <footer id="footer" className="p-y-24 flex flex-column bg-gray-100 dark-bg-gray-900">
+    <footer
+      id="footer"
+      className="p-y-24 flex flex-column bg-gray-100 dark-bg-gray-900"
+    >
       {/* Logo & Menu */}
       <div className="container container-xl">
         <div className="footer-info border-none flex flex-col md-flex-row justify-between">
@@ -22,8 +25,12 @@ export default function Footer() {
                   alt="Areta Informatics College logo"
                 />
                 <div className="m-l-4 flex items-start flex-column">
-                  <h1 className="h5 font-bold line-h-xl">Areta Informatics College</h1>
-                  <p className="small align-left">Kampus IT & Digital Marketing</p>
+                  <h1 className="h5 font-bold line-h-xl">
+                    Areta Informatics College
+                  </h1>
+                  <p className="small align-left">
+                    Kampus IT & Digital Marketing
+                  </p>
                 </div>
               </a>
             </li>
@@ -45,7 +52,7 @@ export default function Footer() {
         <h4 className="h5 m-b-4">Hubungi Kami</h4>
         <ul className="text-gray-700">
           <li className="flex items-center m-b-2">
-            📞 
+            📞
             <a
               href="https://wa.me/6281285234904"
               className="m-l-2 text-blue-600 hover:underline"
@@ -54,7 +61,7 @@ export default function Footer() {
             </a>
           </li>
           <li className="flex items-center m-b-2">
-            ✉️ 
+            ✉️
             <a
               href="mailto:aretainformaticsc@gmail.com"
               className="m-l-2 text-blue-600 hover:underline"
@@ -87,24 +94,53 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Peta Statis */}
+      {/* Lokasi & Jadwal */}
       <div className="container container-xl m-b-6">
         <h4 className="h5 m-b-4">📍 Lokasi Kampus</h4>
-        <a
-          href="https://maps.app.goo.gl/pDCqwuYkUp83MebW6"
-          target="_blank"
-          rel="noopener noreferrer nofollow"
-        >
-          <StaticImage
-            src="../images/maps2.png"
-            alt="Peta lokasi Areta Informatics College"
-            placeholder="blurred"
-            width={300}
-            height={200}
-            quality={80}
-            className="w-full h-auto rounded-xl shadow-lg hover:opacity-80 transition"
-          />
-        </a>
+        <div className="flex flex-col md:flex-row md:items-start gap-6">
+          {/* Map */}
+          <div className="md:w-1/2">
+            <a
+              href="https://maps.app.goo.gl/pDCqwuYkUp83MebW6"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
+              <StaticImage
+                src="../images/maps2.png"
+                alt="Peta lokasi Areta Informatics College"
+                placeholder="blurred"
+                width={400}
+                height={250}
+                quality={80}
+                className="w-full h-auto rounded-xl shadow-lg hover:opacity-80 transition"
+              />
+            </a>
+          </div>
+
+          {/* Jadwal */}
+          <div className="md:w-1/2 flex md:justify-center">
+            <div className="text-right">
+              <p className="mb-2 text-gray-700">Bahasa = Senin - Kamis</p>
+              <p className="mb-2 text-gray-700">
+                Jepang = 1,5 Jam tiap pertemuan
+              </p>
+              <p>
+                19.30 - 21.00
+              </p>
+              <p>
+                ---
+              </p>
+               <p className="mb-2 text-gray-700">Agama = Jum'at</p>
+              <p className="mb-2 text-gray-700">
+                Islam = 1,5 Jam tiap pertemuan
+              </p>
+              <p>
+                19.30 - 21.00
+              </p>
+              
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Attribution */}
