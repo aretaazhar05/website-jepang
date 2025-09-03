@@ -66,6 +66,12 @@ function Header() {
           </li>
 
           <li className="m-r-4">
+            <a href="" className="link-navbar">
+              Blog
+            </a>
+          </li>
+
+          <li className="m-r-4">
             <a href="#CallToAction" className="link-navbar">
               Benefit
             </a>

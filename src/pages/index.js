@@ -8,84 +8,59 @@ import CaseStudies from "../components/CaseStudies";
 import CallToAction from "../components/CallToAction";
 
 import mapsImg from "../images/maps.png";
-import tkImg from "../images/TK.png";
-import aretaImg from "../images/areta.png";
+import sampul2Img from "../images/sampul2.jpg";
+import sampul3Img from "../images/sampul3.jpg";
+import sampul4Img from "../images/sampul4.jpg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
-
 function IndexPage() {
   return (
     <Layout>
       {/* Hero Section */}
-              <section id="index" className="relative p-t-14 p-b-14 dark-bg-black overflow-hidden">
-          {/* Konten Utama */}
-          <div className="relative container container-xl m-b-16">
-            <Swiper
-              modules={[Navigation, Pagination, Autoplay]}
-              navigation
-              pagination={{ clickable: true }}
-              autoplay={{ delay: 3000 }}
-              loop={true}
-              className="rounded-lg shadow-lg"
-            >
-              <SwiperSlide>
-                <img 
-                  src={mapsImg} 
-                  className="w-full h-auto object-contain rounded-lg shadow-lg" 
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img 
-                  src={tkImg} 
-                  className="w-full h-auto object-contain rounded-lg shadow-lg" 
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img 
-                  src={aretaImg}  
-                  className="w-full h-auto object-contain rounded-lg shadow-lg" 
-                />
-              </SwiperSlide>
-            </Swiper>
-          </div>
-
-       {/* Visi & Misi Section */}
-<div className="container container-xl all-center">
-  <div className="grid xs-grid-cols-1 sm-grid-cols-2 gap-6 items-stretch">
-    {/* Visi */}
-    <article className="card p-7 bg-white dark-bg-gray-700 flex flex-col justify-between">
-      <div>
-        <h3 className="h5 m-b-2">🧭 Visi</h3>
-        <p className="subtitle">
-          Menjadi penyelenggara pendidikan bahasa Jepang unggulan skala
-          internasional yang berkontribusi pada pengembangan SDM dan
-          penyebaran dakwah Islam.
-        </p>
-      </div>
-    </article>
-
-    {/* Misi */}
-    <article className="card p-7 bg-white dark-bg-gray-700 flex flex-col justify-between">
-      <div>
-        <h3 className="h5 m-b-2 font-bold">🎯 Misi</h3>
-        <ul className="subtitle list-disc pl-5">
-          <li>- Menggali potensi bahasa Jepang dan skill unik siswa.</li>
-          <li>
-            - Membimbing siswa di dalam maupun luar kelas terkait pembelajaran
-              bahasa Jepang dan kehidupan di Jepang.
-          </li>
-          <li>- Mencetak resource yang mampu berdakwah di Jepang.</li>
-          <li> Mencetak resource yang mampu bersaing di era global.</li>
-        </ul>
-      </div>
-    </article>
-  </div>
-</div>
-
+      <section
+        id="index"
+        className="relative p-t-14 p-b-14 dark-bg-black overflow-hidden"
+      >
+        {/* Konten Utama */}
+        <div className="relative container container-xl m-b-16">
+          <Swiper
+            modules={[Navigation, Pagination, Autoplay]}
+            navigation
+            pagination={{ clickable: true }}
+            autoplay={{ delay: 5000 }}
+            loop={true}
+            className="rounded-lg shadow-lg"
+          >
+            <SwiperSlide>
+              <img
+                src={mapsImg}
+                className="w-full h-[200px] object-fill rounded-lg shadow-lg"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={sampul2Img}
+                className="w-full h-[200px] object-fill rounded-lg shadow-lg"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={sampul3Img}
+                className="w-full h-[200px] object-fill rounded-lg shadow-lg"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={sampul4Img}
+                className="w-full h-[200px] object-fill rounded-lg shadow-lg"
+              />
+            </SwiperSlide>
+          </Swiper>
+        </div>
       </section>
 
       {/* Case Studies */}
@@ -109,8 +84,8 @@ function IndexPage() {
                   "Masa kontrak hingga 5 Tahun SSW 1.",
                   "Seminggu 5-6 hari kerja.",
                   "Kerja 8 hingga 12 jam per hari",
-                  "Perkiraan Gaji: Rp15 Juta - Rp20 Juta per Bulan."
-                ]
+                  "Perkiraan Gaji: Rp15 Juta - Rp20 Juta per Bulan.",
+                ],
               },
               {
                 title: "Bidang Konstruksi",
@@ -118,8 +93,8 @@ function IndexPage() {
                   "Masa kontrak hingga 5 Tahun SSW 1.",
                   "Seminggu 5-6 hari kerja.",
                   "8 jam per hari, istirahat 1 jam.",
-                  "Perkiraan Gaji: Rp15 Juta - Rp22 Juta per Bulan."
-                ]
+                  "Perkiraan Gaji: Rp15 Juta - Rp22 Juta per Bulan.",
+                ],
               },
               {
                 title: "Bidang Pertanian",
@@ -127,8 +102,8 @@ function IndexPage() {
                   "Masa kontrak hingga 5 Tahun SSW 1.",
                   "Seminggu 5 hari kerja.",
                   "8 jam per hari, istirahat 1 jam.",
-                  "Perkiraan Gaji: Rp10 Juta - Rp20 Juta per Bulan."
-                ]
+                  "Perkiraan Gaji: Rp10 Juta - Rp20 Juta per Bulan.",
+                ],
               },
               {
                 title: "Bidang Perhotelan",
@@ -136,8 +111,8 @@ function IndexPage() {
                   "Masa kontrak hingga 5 Tahun SSW 1.",
                   "Seminggu 5-6 hari kerja.",
                   "8 jam per hari, istirahat 1 jam.",
-                  "Perkiraan Gaji: Rp13 Juta - Rp25 Juta per Bulan."
-                ]
+                  "Perkiraan Gaji: Rp13 Juta - Rp25 Juta per Bulan.",
+                ],
               },
               {
                 title: "Bidang Pengolahan Makanan.",
@@ -145,8 +120,8 @@ function IndexPage() {
                   "Masa kontrak hingga 5 Tahun SSW 1.",
                   "Seminggu 5 hari kerja.",
                   "8 jam per hari, istirahat 1 jam.",
-                  "Perkiraan Gaji: Rp13 Juta - Rp18 Juta per Bulan."
-                ]
+                  "Perkiraan Gaji: Rp13 Juta - Rp18 Juta per Bulan.",
+                ],
               },
               {
                 title: "Bidang IT",
@@ -154,9 +129,9 @@ function IndexPage() {
                   "Kontrak awal 2 tahun (visa perpanjang tiap tahun).",
                   "Seminggu 5-6 hari kerja.",
                   "Kerja 8 hingga 12 jam per hari.",
-                  "Perkiraan Gaji: Rp20 Juta - Rp30 Juta per Bulan (entry level)."
-                ]
-              }
+                  "Perkiraan Gaji: Rp20 Juta - Rp30 Juta per Bulan (entry level).",
+                ],
+              },
             ].map((item, index) => (
               <article
                 key={index}
