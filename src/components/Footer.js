@@ -94,55 +94,78 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Lokasi & Jadwal */}
-      <div className="container container-xl m-b-6">
+{/* Lokasi & Jadwal */}
+<div className="container container-xl m-b-6">
+
+  <div className="grid grid-cols-4 gap-6">
+    {/* Jadwal (grid ke 1 paling kiri) */}
+<div className="text-gray-800 max-w-md">
+  {/* Judul */}
+  <h5 className="text-lg font-semibold mb-6">JADWAL :</h5>
+
+  {/* Bahasa */}
+  <div className="grid grid-cols-2 gap-4 mb-6">
+    {/* Kiri */}
+    <div className="text-blue-600 font-semibold">
+      <p>Bahasa</p>
+      <p>Jepang</p>
+    </div>
+    {/* Kanan */}
+    <div>
+      <p className="font-semibold">Senin - Kamis</p>
+      <p>1,5 jam tiap pertemuan</p>
+      <p>19.30 - 21.00 WIB</p>
+    </div>
+  </div>
+
+  {/* Agama */}
+  <div className="grid grid-cols-2 gap-4">
+    {/* Kiri */}
+    <div className="text-blue-600 font-semibold">
+      <p>Agama</p>
+      <p>Islam</p>
+    </div>
+    {/* Kanan */}
+    <div>
+      <p className="font-semibold">Jum'at</p>
+      <p>1,5 jam tiap pertemuan</p>
+      <p>19.30 - 21.00 WIB</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+    {/* Grid kosong atau isi sesuai kebutuhan, misal placeholder */}
+    <div></div>
+    <div></div>
+
+    {/* Map (grid ke 4 paling kanan) */}
+    <div className="flex justify-end">
+        
+      <a
+      
+        href="https://maps.app.goo.gl/pDCqwuYkUp83MebW6"
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        className="w-full max-w-md"
+      >
         <h4 className="h5 m-b-4">📍 Lokasi Kampus</h4>
-        <div className="flex flex-col md:flex-row md:items-start gap-6">
-          {/* Map */}
-          <div className="md:w-1/2">
-            <a
-              href="https://maps.app.goo.gl/pDCqwuYkUp83MebW6"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-            >
-              <StaticImage
-                src="../images/maps2.png"
-                alt="Peta lokasi Areta Informatics College"
-                placeholder="blurred"
-                width={400}
-                height={250}
-                quality={80}
-                className="w-full h-auto rounded-xl shadow-lg hover:opacity-80 transition"
-              />
-            </a>
-          </div>
-
-          {/* Jadwal */}
-          <div className="md:w-1/2 flex md:justify-center">
-            <div className="text-right">
-              <p className="mb-2 text-gray-700">Bahasa = Senin - Kamis</p>
-              <p className="mb-2 text-gray-700">
-                Jepang = 1,5 Jam tiap pertemuan
-              </p>
-              <p>
-                19.30 - 21.00
-              </p>
-              <p>
-                ---
-              </p>
-               <p className="mb-2 text-gray-700">Agama = Jum'at</p>
-              <p className="mb-2 text-gray-700">
-                Islam = 1,5 Jam tiap pertemuan
-              </p>
-              <p>
-                19.30 - 21.00
-              </p>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-
+        <StaticImage
+          src="../images/maps2.png"
+          alt="Peta lokasi Areta Informatics College"
+          placeholder="blurred"
+          width={400}
+          height={250}
+          quality={80}
+          className="w-full h-auto rounded-xl shadow-lg hover:opacity-80 transition"
+        />
+      </a>
+    </div>
+  </div>
+</div>
       {/* Attribution */}
       <div className="container container-xl">
         <div className="flex flex-column lg-w-75">
