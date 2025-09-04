@@ -15,6 +15,7 @@ import sampul4Img from "../images/sampul4.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
+import "swiper/css/pagination";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 function IndexPage() {
@@ -23,10 +24,9 @@ function IndexPage() {
       {/* Hero Section */}
       <section
         id="index"
-        className="relative p-t-14 p-b-14 dark-bg-black overflow-hidden"
+        className="relative py-14 dark:bg-black overflow-hidden"
       >
-        {/* Konten Utama */}
-        <div className="relative container container-xl m-b-16">
+        <div className="relative container mx-auto mb-16">
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             navigation
@@ -38,25 +38,29 @@ function IndexPage() {
             <SwiperSlide>
               <img
                 src={mapsImg}
-                className="w-full h-[200px] object-fill rounded-lg shadow-lg"
+                alt="Peta lokasi"
+                className="w-full h-[200px] object-cover rounded-lg shadow-lg"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 src={sampul2Img}
-                className="w-full h-[200px] object-fill rounded-lg shadow-lg"
+                alt="Sampul 2"
+                className="w-full h-[200px] object-cover rounded-lg shadow-lg"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 src={sampul3Img}
-                className="w-full h-[200px] object-fill rounded-lg shadow-lg"
+                alt="Sampul 3"
+                className="w-full h-[200px] object-cover rounded-lg shadow-lg"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 src={sampul4Img}
-                className="w-full h-[200px] object-fill rounded-lg shadow-lg"
+                alt="Sampul 4"
+                className="w-full h-[200px] object-cover rounded-lg shadow-lg"
               />
             </SwiperSlide>
           </Swiper>
@@ -70,13 +74,13 @@ function IndexPage() {
       <Pricing />
 
       {/* Job Opportunities */}
-      <section className="xs-p-y-16 md-p-y-24 bg-blue-50 dark-bg-gray-900">
-        <div className="container container-xl" data-aos="fade-up">
-          <h3 className="h2 m-b-8 xs-w-100 md-w-50 lg-w-75">
+      <section className="py-16 md:py-24 bg-blue-50 dark:bg-gray-900">
+        <div className="container mx-auto" data-aos="fade-up">
+          <h3 className="text-2xl font-bold mb-8 md:w-1/2 lg:w-3/4">
             Bekerja di Jepang dengan proses yang sesuai dengan keahlian Anda
           </h3>
 
-          <div className="grid xs-grid-cols-1 sm-grid-cols-2 lg-grid-cols-4 gap-6 m-b-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
             {[
               {
                 title: "Bidang Perawat",
@@ -115,7 +119,7 @@ function IndexPage() {
                 ],
               },
               {
-                title: "Bidang Pengolahan Makanan.",
+                title: "Bidang Pengolahan Makanan",
                 details: [
                   "Masa kontrak hingga 5 Tahun SSW 1.",
                   "Seminggu 5 hari kerja.",
@@ -135,14 +139,14 @@ function IndexPage() {
             ].map((item, index) => (
               <article
                 key={index}
-                className="card p-6 bg-white dark-bg-gray-800 flex flex-row items-start"
+                className="p-6 bg-white dark:bg-gray-800 rounded-lg shadow flex flex-row items-start"
               >
-                <span className="badge-icon badge-icon-md m-r-4 bg-blue-100 font-semibold font-size-lg">
+                <span className="mr-4 bg-blue-100 text-blue-700 font-semibold px-3 py-1 rounded-full">
                   {index + 1}
                 </span>
-                <div className="flex flex-column">
-                  <h3 className="h5 m-b-2">{item.title}</h3>
-                  <ul className="subtitle list-disc pl-5">
+                <div className="flex flex-col">
+                  <h3 className="font-bold mb-2">{item.title}</h3>
+                  <ul className="list-disc pl-5 text-sm text-gray-700 dark:text-gray-300">
                     {item.details.map((detail, i) => (
                       <li key={i}>{detail}</li>
                     ))}

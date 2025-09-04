@@ -160,7 +160,7 @@ export default function Footer() {
           width={400}
           height={250}
           quality={80}
-          className="w-full h-auto rounded-xl shadow-lg hover:opacity-80 transition"
+          className="w-full h-auto rounded-xl border-radius: shadow-lg hover:opacity-80 transition"
         />
       </a>
     </div>
