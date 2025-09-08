@@ -1,166 +1,87 @@
-import * as React from "react";
+import React from "react";
+import { useEffect } from "react";
 
-import Layout from "../components/Layout";
-import { SEOData } from "../components/SEOData";
-import Pricing from "../components/Pricing";
-import Feature from "../components/Feature";
-import CaseStudies from "../components/CaseStudies";
-import CallToAction from "../components/CallToAction";
-
-import mapsImg from "../images/maps.png";
-import sampul2Img from "../images/sampul2.jpg";
-import sampul3Img from "../images/sampul3.jpg";
-import sampul4Img from "../images/sampul4.jpg";
-
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/navigation";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
-
-function IndexPage() {
+import { StaticImage } from "gatsby-plugin-image";
+function Header() {
   return (
-    <Layout>
-      {/* Hero Section */}
-      <section
-        id="index"
-        className="relative p-t-14 p-b-14 dark-bg-black overflow-hidden"
+    <header className="sticky flex items-center bg-white dark-bg-black h-20  lg-p-y-8">
+      <nav
+        className="container container-xl flex justify-between items-center gap-8"
+        aria-label="primary nav"
       >
-        {/* Konten Utama */}
-        <div className="relative container container-xl m-b-16">
-          <Swiper
-            modules={[Navigation, Pagination, Autoplay]}
-            navigation
-            pagination={{ clickable: true }}
-            autoplay={{ delay: 5000 }}
-            loop={true}
-            className="rounded-lg shadow-lg"
+        <ul className="flex items-center gap-8">
+          <li className="m-r-8">
+            <a href="/" className="flex items-center">
+              <StaticImage
+                quality={75}
+                placeholder="blurred"
+                className="w-10  h-10"
+                src="../images/logoareta6.png"
+                width={40}
+                height={40}
+                alt="Zauberhaft - logo"
+              />
+              <div className="m-l-4 flex items-start flex-column xs-d-none sm-flex">
+                <h1 className="h5 font-bold line-h-lg">Areta Informatics College</h1>
+                <p className="small align-left">Kampus IT & Bisnis Digital</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+
+        <button
+          className="btn-md p-0 bg-transparent gray-800 dark-gray-200 xs-d-flex md-d-none"
+          aria-label="Mobile menu"
+          aria-expanded="false"
+        >
+          <svg
+            aria-label="hamburger menu"
+            xmlns="http://www.w3.org/2000/svg"
+            width="26"
+            height="26"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="ai ai-TextAlignJustified m-r-3"
           >
-            <SwiperSlide>
-              <img
-                src={mapsImg}
-                className="w-full h-[200px] object-fill rounded-lg shadow-lg"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={sampul2Img}
-                className="w-full h-[200px] object-fill rounded-lg shadow-lg"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={sampul3Img}
-                className="w-full h-[200px] object-fill rounded-lg shadow-lg"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={sampul4Img}
-                className="w-full h-[200px] object-fill rounded-lg shadow-lg"
-              />
-            </SwiperSlide>
-          </Swiper>
-        </div>
-      </section>
+            <title>Mobile hamburger menu icon</title>
+            <path d="M3 6h18M3 12h18M3 18h18"></path>
+          </svg>
+          Menu
+        </button>
+        <ul className="xs-d-none md-flex  items-center gap-5 bg-gray-50 dark-bg-gray-800 dark-white md-p-r-4 md-p-l-6 md-p-y-3 radius-sm flex-wrap">
+          <li className="m-r-6">
+            <a href="#index" className="link-navbar">
+              Home
+            </a>
+          </li>
 
-      {/* Case Studies */}
-      <CaseStudies />
+          <li className="m-r-6">
+            <a href="#Pricing" className="link-navbar">
+              Cost
+            </a>
+          </li>
 
-      {/* Pricing */}
-      <Pricing />
+          <li className="m-r-4">
+            <a href="#Blog" className="link-navbar">
+              Blog
+            </a>
+          </li>
 
-      {/* Job Opportunities */}
-      <section className="xs-p-y-16 md-p-y-24 bg-blue-50 dark-bg-gray-900">
-        <div className="container container-xl" data-aos="fade-up">
-          <h3 className="h2 m-b-8 xs-w-100 md-w-50 lg-w-75">
-            Bekerja di Jepang dengan proses yang sesuai dengan keahlian Anda
-          </h3>
-
-          <div className="grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6 m-b-10 items-stretch">
-            {[
-              {
-                title: "Bidang Perawat",
-                details: [
-                  "Masa kontrak hingga 5 Tahun SSW 1.",
-                  "Seminggu 5-6 hari kerja.",
-                  "Kerja 8 hingga 12 jam per hari",
-                  "Perkiraan Gaji: Rp15 Juta - Rp20 Juta per Bulan.",
-                ],
-              },
-              {
-                title: "Bidang Konstruksi",
-                details: [
-                  "Masa kontrak hingga 5 Tahun SSW 1.",
-                  "Seminggu 5-6 hari kerja.",
-                  "8 jam per hari, istirahat 1 jam.",
-                  "Perkiraan Gaji: Rp15 Juta - Rp22 Juta per Bulan.",
-                ],
-              },
-              {
-                title: "Bidang Pertanian",
-                details: [
-                  "Masa kontrak hingga 5 Tahun SSW 1.",
-                  "Seminggu 5 hari kerja.",
-                  "8 jam per hari, istirahat 1 jam.",
-                  "Perkiraan Gaji: Rp10 Juta - Rp20 Juta per Bulan.",
-                ],
-              },
-              {
-                title: "Bidang Perhotelan",
-                details: [
-                  "Masa kontrak hingga 5 Tahun SSW 1.",
-                  "Seminggu 5-6 hari kerja.",
-                  "8 jam per hari, istirahat 1 jam.",
-                  "Perkiraan Gaji: Rp13 Juta - Rp25 Juta per Bulan.",
-                ],
-              },
-              {
-                title: "Bidang Pengolahan Makanan.",
-                details: [
-                  "Masa kontrak hingga 5 Tahun SSW 1.",
-                  "Seminggu 5 hari kerja.",
-                  "8 jam per hari, istirahat 1 jam.",
-                  "Perkiraan Gaji: Rp13 Juta - Rp18 Juta per Bulan.",
-                ],
-              },
-              {
-                title: "Bidang IT",
-                details: [
-                  "Kontrak awal 2 tahun (visa perpanjang tiap tahun).",
-                  "Seminggu 5-6 hari kerja.",
-                  "Kerja 8 hingga 12 jam per hari.",
-                  "Perkiraan Gaji: Rp20 Juta - Rp30 Juta per Bulan (entry level).",
-                ],
-              },
-            ].map((item, index) => (
-              <article
-                key={index}
-                className="card p-6 bg-white dark-bg-gray-800 flex flex-col h-full rounded-xl shadow-md max-w-sm w-full"
-              >
-                {/* Header: nomor + judul */}
-                <div className="flex items-center mb-4">
-                  <span className="badge-icon badge-icon-md bg-blue-100 font-semibold font-size-lg flex items-center justify-center rounded-full w-8 h-8 mr-3">
-                    {index + 1}
-                  </span>
-                  <h3 className="h5">{item.title}</h3>
-                </div>
-
-                {/* List detail */}
-                <ul className="subtitle list-disc pl-5 space-y-1">
-                  {item.details.map((detail, i) => (
-                    <li key={i}>{detail}</li>
-                  ))}
-                </ul>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <CallToAction />
-    </Layout>
+          <li className="m-r-4">
+            <a href="#CallToAction" className="link-navbar">
+              Benefit
+            </a>
+          </li>
+          
+        </ul>
+      </nav>
+    </header>
   );
 }
 
-export default IndexPage;
-export const Head = () => <SEOData />;
+
+export default Header;
