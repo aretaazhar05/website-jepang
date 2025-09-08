@@ -7,7 +7,7 @@ import Feature from "../components/Feature";
 import CaseStudies from "../components/CaseStudies";
 import CallToAction from "../components/CallToAction";
 
-import mapsImg from "../images/maps.png";
+import beraniImg from "../images/berani.png";
 import sampul2Img from "../images/sampul2.jpg";
 import sampul3Img from "../images/sampul3.jpg";
 import sampul4Img from "../images/sampul4.jpg";
@@ -36,7 +36,7 @@ function IndexPage() {
           >
             <SwiperSlide>
               <img
-                src={mapsImg}
+                src={beraniImg}
                 className="w-full h-[200px] object-cover rounded-lg shadow-lg"
                 alt="maps"
               />

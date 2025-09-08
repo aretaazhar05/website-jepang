@@ -6,7 +6,7 @@ export default function CallToAction() {
       <div className="container container-lg">
         <div className="m-b-8">
           <h2>
-           MANFAAT BEKERJA DI JEPANG
+          MANFAAT BEKERJA DI JEPANG
           </h2>
           <div>
                 <p>
